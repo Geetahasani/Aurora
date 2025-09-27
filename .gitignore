@@ -1,0 +1,61 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+/android/captures/
+/android/local.properties
+*.jks
+/android/key.properties
+
+# iOS
+/ios/Pods/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/.generated/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+
+# Web
+/lib/generated_plugin_registrant.dart
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# API Keys & Secrets (IMPORTANT!)
+**/*.env
+**/secrets.dart
+**/api_keys.dart
+**/firebase_options.dart
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Coverage
+coverage/
+
+# VS Code (optional)
+.vscode/

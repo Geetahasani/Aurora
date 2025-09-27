@@ -1,0 +1,46 @@
+name: aurora
+description: "A voice-guided object finder app for visually impaired users"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Only these working dependencies
+  camera: ^0.11.2
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.4.0
+  vibration: ^3.1.4
+  file_picker: ^10.3.3
+  flutter_sms_inbox: ^1.0.4
+  http: ^1.5.0
+  image: ^4.5.4
+  web_socket_channel: ^3.0.3
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  syncfusion_flutter_pdf: ^31.1.21
+  geolocator: ^14.0.2
+  url_launcher: ^6.3.1
+  phone_state: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/visualization.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
